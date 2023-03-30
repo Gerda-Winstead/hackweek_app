@@ -3,10 +3,10 @@ import { useState, useEffect } from 'react';
 import { Button, View, Text, TouchableOpacity } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { HomeScreen } from './src/screens/HomeScreen.js';
-import { createPlaylistScreen } from './src/components/PlaylistComponent.js'
-import { RoeVWadePlaylistContent } from './src/screens/playlists/RoeVWadePlaylist.js'
-import { TikTokBanPlaylistContent } from './src/screens/playlists/TikTokBanPlaylist.js'
+import { HomeScreen } from './screens/HomeScreen.js';
+import { createPlaylistScreen } from './components/PlaylistComponent.js'
+import { RoeVWadePlaylistContent } from './screens/playlists/RoeVWadePlaylist.js'
+import { TikTokBanPlaylistContent } from './screens/playlists/TikTokBanPlaylist.js'
 
 import TrackPlayer from 'react-native-track-player';
 
