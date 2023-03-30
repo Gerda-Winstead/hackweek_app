@@ -1,25 +1,61 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from 'react';
+import { useState, useEffect } from 'react';
+import { Button, View, Text, TouchableOpacity } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { HomeScreen } from './src/screens/HomeScreen.js';
+import { createPlaylistScreen } from './src/components/PlaylistComponent.js'
+import { RoeVWadePlaylistContent } from './src/screens/playlists/RoeVWadePlaylist.js'
+import { TikTokBanPlaylistContent } from './src/screens/playlists/TikTokBanPlaylist.js'
 
-function App() {
+import TrackPlayer from 'react-native-track-player';
+
+const Stack = createNativeStackNavigator();
+
+const App = () => {
+
+  const RoeVWadePlaylist = createPlaylistScreen(RoeVWadePlaylistContent);
+  const TikTokBanPlaylist = createPlaylistScreen(TikTokBanPlaylistContent);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen 
+          name="RoeVWadePlaylist" 
+          component={RoeVWadePlaylist} 
+          options={{
+            headerStyle: {
+              backgroundColor: '#1DB954',
+            },
+            headerTintColor: '#fff',
+            headerTitleStyle: {
+              fontWeight: 'bold',
+            },
+            headerTitleContainerStyle: {
+              height: 10,
+            },
+          }}
+        />
+        <Stack.Screen 
+          name="TikTokBanPlaylist" 
+          component={TikTokBanPlaylist} 
+          options={{
+            headerStyle: {
+              backgroundColor: '#1DB954',
+            },
+            headerTintColor: '#fff',
+            headerTitleStyle: {
+              fontWeight: 'bold',
+            },
+            headerTitleContainerStyle: {
+              height: 10,
+            },
+          }}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
-}
+};
 
 export default App;

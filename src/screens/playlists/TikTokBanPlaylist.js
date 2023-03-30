@@ -1,0 +1,51 @@
+export const TikTokBanPlaylistContent = [
+	{
+		id: '',
+		title: '',
+		artist: '',
+		artwork: 'https://i.pinimg.com/474x/4e/a2/77/4ea2771571c1c0044b3fd21014d4ee6e.jpg',
+		url: 'h',
+	},
+	{
+		id: '?? “iTed iLasso” — Apple’s marketing nirvana. Air Fryer vs Instapot. TikTok’s American ban.',
+		title: '?? “iTed iLasso” — Apple’s marketing nirvana. Air Fryer vs Instapot. TikTok’s American ban.',
+		artist: 'The Best One Yet',
+		artwork: 'https://i.scdn.co/image/ab6765630000ba8a1e6feb830289477133c7899f',
+		url: 'https://podz-content.spotifycdn.com/audio/clips/3M9hgVeb4Nvktt8Znx24xK/clip_108990_154581.mp3',
+	},
+	{
+		id: 'Timcast IRL #743 Democrats DESPERATE To Stop TIKTOK BAN As Ban Seems Likely w/Ethan Van Sciver',
+		title: 'Timcast IRL #743 Democrats DESPERATE To Stop TIKTOK BAN As Ban Seems Likely w/Ethan Van Sciver',
+		artist: 'Timcast IRL',
+		artwork: 'https://i.scdn.co/image/ab6765630000ba8a9e0bc13524f27b7e4e8f50e3',
+		url: 'https://podz-content.spotifycdn.com/audio/clips/5P3W2yMBawffry4Ema2tQZ/clip_2112350_2167450.mp3',
+	},
+	{
+		id: 'Ban TikTok?',
+		title: 'Ban TikTok?',
+		artist: 'Today, Explained',
+		artwork: 'https://i.scdn.co/image/ab6765630000ba8a1367d24aac0f50f69842502b',
+		url: 'https://podz-content.spotifycdn.com/audio/clips/4sxJzhWoaPvWvmOf9iIW9S/clip_280798_331000.mp3',
+	},
+	{
+		id: 'Banning TikTok | Saturday Extra',
+		title: 'Banning TikTok | Saturday Extra',
+		artist: 'Morning Wire',
+		artwork: 'https://i.scdn.co/image/ab6765630000ba8a2cec91e11ed0d0f96ebc3906',
+		url: 'https://podz-content.spotifycdn.com/audio/clips/54c3AuuH646zBVtGjQH0Ai/clip_501859_560950.mp3',
+	},
+	{
+		id: '3/27/23: Trump\'s Wild Rally In Waco, Krystal and Saagar Debate TikTok Ban, Biden Bombs Syria, Putin Deploying Nukes In Belarus, Malcolm Nance Ukraine War Grifter, ESG Green Energy Scam, Tim Urban New Book',
+		title: '3/27/23: Trump\'s Wild Rally In Waco, Krystal and Saagar Debate TikTok Ban, Biden Bombs Syria, Putin Deploying Nukes In Belarus, Malcolm Nance Ukraine War Grifter, ESG Green Energy Scam, Tim Urban New Book',
+		artist: 'Breaking Points with Krystal and Saagar',
+		artwork: 'https://i.scdn.co/image/ab6765630000ba8a37a2a577edb25c855101e5ad',
+		url: 'https://podz-content.spotifycdn.com/audio/clips/1hdJJaPF0xb9WqpKE8AHb0/clip_1766024_1823173.mp3',
+	},
+	{
+		id: '',
+		title: '',
+		artist: '',
+		artwork: 'https://i.pinimg.com/474x/4e/a2/77/4ea2771571c1c0044b3fd21014d4ee6e.jpg',
+		url: 'h',
+	},
+]
